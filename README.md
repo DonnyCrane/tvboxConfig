@@ -1,2 +1,1 @@
-# tvboxConfig
-personal tvbox configuration files
+自用TVBOX影视仓多仓配置
