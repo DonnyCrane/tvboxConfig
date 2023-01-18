@@ -66,3 +66,12 @@ https://ghproxy.com/https://raw.githubusercontent.com/zhanghongguang/zhanghonggu
 https://ghproxy.com/https://github.com/zhanghongguang/zhanghongguang.github.io/raw/main/EdemTV.m3u
 #ZHG Youtube
 https://ghproxy.com/https://raw.githubusercontent.com/benmoose39/YouTube_to_m3u/main/youtube.m3u
+
+#港澳台
+https://ghproxy.com/https://raw.githubusercontent.com/SSM0415/apptest/main/TVonline.txt
+
+#MHQTV
+https://agit.ai/138001380000/MHQTV/raw/branch/master/TV/230107.txt
+
+#guot54
+https://agit.ai/guot54/ygbh/raw/branch/master/zB/zB.txt
