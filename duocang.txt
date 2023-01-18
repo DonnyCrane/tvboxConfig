@@ -24,3 +24,6 @@ https://codeberg.org/g./g/raw/branch/main/l.json
 
 //多仓库
 https://agit.ai/l/l/raw/branch/master/o.json
+
+//多仓库
+https://agit.ai/zw8881/2023/raw/branch/master/rg
