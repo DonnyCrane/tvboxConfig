@@ -40,3 +40,8 @@ https://agit.ai/l/l/raw/branch/master/o.json
 
 //多仓库
 https://agit.ai/zw8881/2023/raw/branch/master/rg
+
+//多仓库
+https://www.agit.ai/wuheng42/bendi/raw/branch/master/20221126.0914j
+https://www.agit.ai/wuheng42/bendi/raw/branch/master/2022.1210.2034
+https://www.agit.ai/wuheng42/bendi/raw/commit/20fca1b66013c2e36acf381de359b34d9b0234f0/ck2/CRXL3.jpg
