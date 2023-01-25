@@ -1,13 +1,17 @@
 //多线路
 https://agit.ai/jyj/gk0/raw/branch/master/vip.txt
 
-//多仓库推荐
+//多多仓库，推荐第一个
+https://www.agit.ai/leevi/apps/raw/branch/main/fast.json
 https://gitlab.com/duomv/apps/-/raw/main/fast.json
 
 //多仓库推荐
 https://ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/dm.txt
 
-//多仓库
+//云星仓库
+https://agit.ai/Liulin/Duo/raw/branch/master/yunxing.txt
+
+//张红仓库
 https://ghproxy.com/https://raw.githubusercontent.com/zhanghong1983/TVBOXZY/main/a
 
 //多仓库
