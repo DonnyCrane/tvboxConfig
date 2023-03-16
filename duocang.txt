@@ -48,3 +48,6 @@ https://www.agit.ai/wuheng42/bendi/raw/commit/20fca1b66013c2e36acf381de359b34d9b
 
 //outyshz
 https://agit.ai/outyshz/out/raw/branch/master/TVBox/DXL
+
+//Lem缝合包
+https://agit.ai/n3rd/N3RD/raw/branch/master/JN/lem.json
