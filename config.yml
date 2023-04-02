@@ -42,7 +42,7 @@ proxy-providers:
     # 免费订阅源代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml"
-    interval: 2000
+    interval: 3600
     path: ./providers/provider_remote.yaml
     health-check:
       enable: true
@@ -52,7 +52,7 @@ proxy-providers:
     # 墙内可用代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_free.yaml"
-    interval: 2000
+    interval: 3600
     path: ./providers/provider_free.yaml
     health-check:
       enable: true
@@ -62,7 +62,7 @@ proxy-providers:
     # 被墙代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_outwall.yaml"
-    interval: 2000
+    interval: 3600
     path: ./providers/provider_outwall.yaml
     health-check:
       enable: true
@@ -72,47 +72,51 @@ proxy-providers:
     # 解锁Netflix代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_netflix.yaml"
-    interval: 2000
+    interval: 3600
     path: ./providers/provider_netflix.yaml
     health-check:
       enable: true
       interval: 600
       url: http://www.gstatic.com/generate_204
   provider_1:
+    # 1c
     type: file
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/1.yaml"
     interval: 2000
     path: ./providers/provider_1.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 2000
       url: "http://www.gstatic.com/generate_204"
   provider_2:
+    # 2c
     type: file
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/2.yaml"
     interval: 2000
     path: ./providers/provider_2.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 2000
       url: "http://www.gstatic.com/generate_204"
   provider_3:
+    # 3c
     type: file
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/3.yaml"
     interval: 2000
     path: ./providers/provider_3.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 2000
       url: "http://www.gstatic.com/generate_204"
   provider_4:
+    # 4c
     type: file
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/4.yaml"
     interval: 2000
     path: ./providers/provider_4.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 2000
       url: "http://www.gstatic.com/generate_204"
       
 # 类型选择 简介
@@ -132,10 +136,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 免费CDN更新源
-      - provider_1
-      - provider_2
-      - provider_3
-      - provider_4
+      - 1c
+      - 2c
+      - 3c
+      - 4c
       - PROXY
       - 被墙代理组
       - 默认代理组
@@ -148,10 +152,10 @@ proxy-groups:
       - 免费CDN更新源
       - PROXY
       - 被墙代理组
-      - provider_1
-      - provider_2
-      - provider_3
-      - provider_4
+      - 1c
+      - 2c
+      - 3c
+      - 4c
   - name: 免费CDN更新源
     type: select # load-balance, select, relay, fallback, url-test
     use: # 引入 proxy-provider 使用 use 关键字
@@ -259,8 +263,31 @@ proxy-groups:
       - 中继组-两级代理
       - 中继组-解锁奈飞
       - DIRECT
-
-
+  - name: 1c
+    type: select # load-balance, select, relay, fallback, url-test
+    use: # 引入 proxy-provider 使用 use 关键字
+      - provider_1  # 个人自定义的代理文件
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 2c
+    type: select # load-balance, select, relay, fallback, url-test
+    use: # 引入 proxy-provider 使用 use 关键字
+      - provider_2  # 个人自定义的代理文件
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 3c
+    type: select # load-balance, select, relay, fallback, url-test
+    use: # 引入 proxy-provider 使用 use 关键字
+      - provider_3  # 个人自定义的代理文件
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+  - name: 4c
+    type: select # load-balance, select, relay, fallback, url-test
+    use: # 引入 proxy-provider 使用 use 关键字
+      - provider_4  # 个人自定义的代理文件
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    
 rule-providers:
   google:
     type: http
