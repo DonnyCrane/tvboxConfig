@@ -150,8 +150,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 免费CDN更新源
-      - PROXY
-      - 被墙代理组
       - 1c
       - 2c
       - 3c
