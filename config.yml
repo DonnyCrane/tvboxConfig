@@ -80,7 +80,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   provider_1:
     # 1c
-    type: file
+    type: http
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/1.yaml"
     interval: 2000
     path: ./providers/provider_1.yaml
@@ -90,7 +90,7 @@ proxy-providers:
       url: "http://www.gstatic.com/generate_204"
   provider_2:
     # 2c
-    type: file
+    type: http
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/2.yaml"
     interval: 2000
     path: ./providers/provider_2.yaml
@@ -100,7 +100,7 @@ proxy-providers:
       url: "http://www.gstatic.com/generate_204"
   provider_3:
     # 3c
-    type: file
+    type: http
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/3.yaml"
     interval: 2000
     path: ./providers/provider_3.yaml
@@ -110,7 +110,7 @@ proxy-providers:
       url: "http://www.gstatic.com/generate_204"
   provider_4:
     # 4c
-    type: file
+    type: http
     url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/4.yaml"
     interval: 2000
     path: ./providers/provider_4.yaml
