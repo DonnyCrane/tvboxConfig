@@ -81,7 +81,7 @@ proxy-providers:
   provider_1:
     # 1c
     type: http
-    url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/1.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/songtao1873/clash/main/subscription/1.yaml"
     interval: 2000
     path: ./providers/provider_1.yaml
     health-check:
@@ -91,7 +91,7 @@ proxy-providers:
   provider_2:
     # 2c
     type: http
-    url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/2.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/songtao1873/clash/main/subscription/2.yaml"
     interval: 2000
     path: ./providers/provider_2.yaml
     health-check:
@@ -101,7 +101,7 @@ proxy-providers:
   provider_3:
     # 3c
     type: http
-    url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/3.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/songtao1873/clash/main/subscription/3.yaml"
     interval: 2000
     path: ./providers/provider_3.yaml
     health-check:
@@ -111,7 +111,7 @@ proxy-providers:
   provider_4:
     # 4c
     type: http
-    url: "https://raw.githubusercontent.com/songtao1873/clash/main/subscription/4.yaml"
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/songtao1873/clash/main/subscription/4.yaml"
     interval: 2000
     path: ./providers/provider_4.yaml
     health-check:
