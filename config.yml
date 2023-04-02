@@ -42,7 +42,7 @@ proxy-providers:
     # 免费订阅源代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/clash.provider.yaml"
-    interval: 3600
+    interval: 2000
     path: ./providers/provider_remote.yaml
     health-check:
       enable: true
@@ -52,7 +52,7 @@ proxy-providers:
     # 墙内可用代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_free.yaml"
-    interval: 3600
+    interval: 2000
     path: ./providers/provider_free.yaml
     health-check:
       enable: true
@@ -62,7 +62,7 @@ proxy-providers:
     # 被墙代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_outwall.yaml"
-    interval: 3600
+    interval: 2000
     path: ./providers/provider_outwall.yaml
     health-check:
       enable: true
@@ -72,7 +72,7 @@ proxy-providers:
     # 解锁Netflix代理组
     type: http
     url: "https://ghproxy.com/https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_netflix.yaml"
-    interval: 3600
+    interval: 2000
     path: ./providers/provider_netflix.yaml
     health-check:
       enable: true
@@ -86,7 +86,7 @@ proxy-providers:
     path: ./providers/provider_1.yaml
     health-check:
       enable: true
-      interval: 2000
+      interval: 600
       url: "http://www.gstatic.com/generate_204"
   provider_2:
     # 2c
@@ -96,7 +96,7 @@ proxy-providers:
     path: ./providers/provider_2.yaml
     health-check:
       enable: true
-      interval: 2000
+      interval: 600
       url: "http://www.gstatic.com/generate_204"
   provider_3:
     # 3c
@@ -106,7 +106,7 @@ proxy-providers:
     path: ./providers/provider_3.yaml
     health-check:
       enable: true
-      interval: 2000
+      interval: 600
       url: "http://www.gstatic.com/generate_204"
   provider_4:
     # 4c
@@ -116,7 +116,7 @@ proxy-providers:
     path: ./providers/provider_4.yaml
     health-check:
       enable: true
-      interval: 2000
+      interval: 600
       url: "http://www.gstatic.com/generate_204"
       
 # 类型选择 简介
