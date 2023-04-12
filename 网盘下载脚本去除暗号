@@ -1,0 +1,27 @@
+#去掉公众号暗号验证
+        async initDialog() {
+            let result = await Swal.fire({
+                title: pan.init[0],
+                html: `<div><img style="width: 250px;margin-bottom: 10px;" src="${pan.img}" alt="${pan.img}"><input class="swal2-input" id="init" type="text" placeholder="${pan.init[1]}"></div>`,
+                allowOutsideClick: false,
+                showCloseButton: true,
+                confirmButtonText: '确定'
+            });
+            if (result.isDismissed && result.dismiss === 'close') return;
+            //if (pan.num === $('#init').val()) {
+            if (1 > 0) {//去掉公众号暗号验证去q
+                base.setValue('setting_init_code', pan.num);
+                message.success(pan.init[2]);
+                setTimeout(() => {
+                    history.go(0);
+                }, 1500);
+            } else {
+                await Swal.fire({
+                    title: pan.init[3],
+                    text: pan.init[4],
+                    confirmButtonText: '重新输入',
+                    imageUrl: pan.img,
+                });
+                await this.initDialog();
+            }
+        }
