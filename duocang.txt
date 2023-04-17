@@ -51,3 +51,7 @@ https://agit.ai/outyshz/out/raw/branch/master/TVBox/DXL
 
 //Lem缝合包
 https://agit.ai/n3rd/N3RD/raw/branch/master/JN/lem.json
+
+//日后多仓
+http://rihou.cc/%E6%97%A5%E5%90%8E%E5%A4%9A%E4%BB%93/
+https://agit.ai/XiaoYiChaHang/xxzj/raw/branch/master/tvbox/TV/CangKu.json
